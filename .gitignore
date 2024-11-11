@@ -1,23 +1,30 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
 # dependencies
 /node_modules
-/.pnp
-.pnp.js
-
-# testing
-/coverage
-
-# production
-/build
-
+node_modules/
+user/src/config/gcp.serviceaccount.json
 # misc
 .DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+.env
+.pdf
+/coverage
+buildspec.yml
+credentials
+package-lock.json
+package-lock
+yarn.lock
+.vscode
+# IDEs and editors
+/.idea
 
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# assets
+assets/
+!assets/.gitkeep
+!assets/fonts
+logs/
+# files
+files/
+!files/.gitkeep
+
+# tmp
+tmp/
+!tmp/.gitkeep
